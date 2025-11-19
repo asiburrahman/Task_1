@@ -63,7 +63,7 @@ export default function TrustedCustomersSection() {
                             key={testimonial.id}
                             className="bg-white rounded-2xl p-8 flex flex-col gap-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-sm"
                         >
-                            <p className="text-base lg:text-[17px] leading-relaxed text-[#6B7280] ">
+                            <p className="text-base lg:text-[17px] leading-relaxed text-[#6B7280] flex-grow">
                                 {testimonial.text}
                             </p>
 

@@ -7,8 +7,7 @@ import PartnerSection from "@/components/PartnerSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import TrustedCustomersSection from "@/components/TrustedCustomersSection";
 import WhyInsuranceSection from "@/components/WhyInsuranceSection";
-import Footer from "@/components/Footer";
-import CTA from "@/components/CTA";
+import CaseStudiesSection from "@/components/CaseStudiesSection";
 
 export default function Home() {
   return (
@@ -20,10 +19,11 @@ export default function Home() {
     <CoverageSection/>
     <FeaturesExplanationSection/>
     <WhyInsuranceSection/>
+    <CaseStudiesSection/>
     <TrustedCustomersSection/>
     <BlogSection/>
-    <CTA/>
-    <Footer/>
+    
+   
     </>
   );
 }
