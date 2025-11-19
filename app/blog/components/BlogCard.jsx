@@ -34,7 +34,7 @@ import Link from 'next/link';
                     <div className="inline-flex items-center gap-2 text-[#5F5F5F] group-hover:text-[#6BE26B] font-semibold transition-colors">
                       Learn More
                       <svg 
-                        className="w-5 h-5 transition-transform group-hover:translate-x-1" 
+                        className="w-5 h-5 transition-transform rotate-320 group-hover:translate-x-1" 
                         fill="none" 
                         stroke="currentColor" 
                         viewBox="0 0 24 24"
