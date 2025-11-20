@@ -14,7 +14,7 @@ export default function Navbar() {
             : "hover:text-gray-200";
 
     return (
-        <nav className="w-full py-6 px-6 lg:px-20 flex justify-between items-center bg-transparent absolute top-0 left-0 z-30">
+        <nav className="w-full py-6 px-6  lg:px-16 flex justify-between items-center bg-transparent absolute top-0 left-0 z-30">
 
             {/* Logo */}
             <Link href="/" className={`text-2xl font-bold text-white`}>
@@ -45,7 +45,7 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Button */}
-            <button className="hidden lg:block border border-white text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-gray-600">
+            <button className="hidden lg:block border border-white text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-[#7CF47C] hover:text-black hover:border-gray-400">
                 Secure Your Family
             </button>
 

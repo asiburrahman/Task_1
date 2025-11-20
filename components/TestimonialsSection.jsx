@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
 
     return (
         <section className="bg-[#F5F5F0] py-16 lg:py-24">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {testimonials.map((testimonial) => (
                         <div 

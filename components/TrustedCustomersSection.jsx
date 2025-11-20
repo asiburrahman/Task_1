@@ -48,7 +48,7 @@ export default function TrustedCustomersSection() {
 
     return (
         <section className="bg-white py-16 lg:py-24">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 {/* Heading */}
                 <div className="text-center mb-12 lg:mb-16">
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2C3E35] leading-tight">

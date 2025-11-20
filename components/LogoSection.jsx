@@ -42,7 +42,7 @@ export default function LogoSection() {
 
     return (
         <section className="bg-white py-16 lg:py-20">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 {/* Heading */}
                 <div className="text-center mb-12">
                     <p className="text-black text-lg lg:text-xl">

@@ -18,7 +18,7 @@ export default function PartnerSection() {
 
     return (
         <section className="bg-white py-16 lg:py-24">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     
                     {/* Left Image */}

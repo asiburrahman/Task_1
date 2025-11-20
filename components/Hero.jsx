@@ -6,7 +6,7 @@ export default function HeroSection() {
         <section className="relative bg-[#157A6E] text-white overflow-hidden min-h-dvh">
 
 
-            <div className=" py-5 lg:pl-20 lg:py-16">
+            <div className=" py-5 lg:pl-16 lg:py-16">
 
 
                 {/* Left Content */}

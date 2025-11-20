@@ -26,7 +26,7 @@ export default function WhyInsuranceSection() {
 
     return (
         <section className="bg-white py-16 lg:py-24">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 rounded-3xl overflow-hidden shadow-2xl">
                     {/* Teal Background Section */}
                     <div className="bg-[#2B8A7E] text-white p-8 lg:p-12">

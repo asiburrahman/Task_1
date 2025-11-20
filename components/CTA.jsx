@@ -3,7 +3,7 @@ import Image from "next/image";
 function CTA(props) {
     return (
         <section className="bg-white py-16 lg:py-24">
-            <div className="w-12/12 mx-auto px-6 lg:px-20">
+            <div className="container mx-auto px-6 lg:px-16">
                 <div className="bg-[#2B8A7E] rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center min-h-[500px] lg:min-h-[600px]">
                     {/* Left Content */}
                     <div className="p-8 lg:p-12 xl:p-16 text-white flex flex-col justify-center">
@@ -29,20 +29,31 @@ function CTA(props) {
 
                     {/* Right Image */}
                     <div className="relative p-8 lg:p-12 flex items-center justify-center">
+
                         {/* Green border background */}
-                        <div className="absolute w-[280px] h-[300px] lg:w-[440px] lg:h-[458px] rounded-lg bg-[#7CF47C]"></div>
-                        
-                        {/* Image card with offset */}
-                        <div className="relative bottom-4 right-4 w-[280px] h-[300px] lg:w-[440px] lg:h-[458px] rounded-lg overflow-hidden shadow-xl">
+                        <div className="
+        absolute 
+        w-[280px] h-[300px] 
+        xl:w-[440px] xl:h-[458px]
+        rounded-lg bg-[#7CF47C]
+    "></div>
+
+                        {/* Image card */}
+                        <div className="
+        relative bottom-4 right-4
+        w-[280px] h-[300px] 
+        xl:w-[440px] xl:h-[458px]
+        rounded-lg overflow-hidden shadow-xl
+    ">
                             <Image
                                 src="/images/father-child.png"
                                 alt="Father working with child"
-                                width={440}
-                                height={458}
-                                className="w-full h-full object-cover"
+                                fill
+                                className="object-cover"
                             />
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
